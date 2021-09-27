@@ -65,8 +65,8 @@ public class Restaurant {
         return name;
     }
 
-    /*public int getOrderValue(String items) {
-        List<String> orderedItems = new ArrayList<String>(Arrays.asList(items.split(",")));
+    public int getOrderValue(String items) {
+        /*List<String> orderedItems = new ArrayList<String>(Arrays.asList(items.split(",")));
         List<Integer> orderedItemPriceList=new ArrayList<Integer>();
         List<Item> listOfItem=getMenu();
 
@@ -79,8 +79,9 @@ public class Restaurant {
         }
         Integer sum = orderedItemPriceList.stream()
                 .mapToInt(Integer::intValue)
-                .sum();
+                .sum();*/
 
-        return sum;
-    }*/
+        return 0;
+    }
+
 }
