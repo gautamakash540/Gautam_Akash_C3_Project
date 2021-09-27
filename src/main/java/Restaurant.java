@@ -65,7 +65,7 @@ public class Restaurant {
         return name;
     }
 
-    public int getOrderValue(String items) {
+    /*public int getOrderValue(String items) {
         List<String> orderedItems = new ArrayList<String>(Arrays.asList(items.split(",")));
         List<Integer> orderedItemPriceList=new ArrayList<Integer>();
         List<Item> listOfItem=getMenu();
@@ -82,5 +82,5 @@ public class Restaurant {
                 .sum();
 
         return sum;
-    }
+    }*/
 }
